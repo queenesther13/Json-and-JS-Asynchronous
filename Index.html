@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Json and JS Asynchronous</title>
+    </head>
+    <body>
+        <p id="Result"></p>
+        <script>
+            var myObj = {name:"feyikemi",Gender:"Female",Age:"12"};
+            var a = JSON.stringify(myObj);
+            var b = JSON.parse(a);
+            document.getElementById("Result").innerHTML= "My name is " +b.name + ".I am a "+ b.Gender+ "I am "+b.Age +"years old."
+        </script>
+    </body>
+</html>
